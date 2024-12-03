@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/acdh-oeaw/apis-acdhch-django-invite/compare/v0.1.1...v0.2.0) (2024-12-03)
+
+
+### Features
+
+* add consume_invite signal ([02699fd](https://github.com/acdh-oeaw/apis-acdhch-django-invite/commit/02699fd76143d8b7af6a9943e7682bc332a60ebb)), closes [#5](https://github.com/acdh-oeaw/apis-acdhch-django-invite/issues/5)
+
+
+### Bug Fixes
+
+* **deps:** loosen apis-core-rdf dependency version ([d856171](https://github.com/acdh-oeaw/apis-acdhch-django-invite/commit/d856171a3dbf5a4566d76018d93bc0036262d4b8)), closes [#4](https://github.com/acdh-oeaw/apis-acdhch-django-invite/issues/4)
+
 ## [0.1.1](https://github.com/acdh-oeaw/apis-acdhch-django-invite/compare/v0.1.0...v0.1.1) (2024-12-03)
 
 

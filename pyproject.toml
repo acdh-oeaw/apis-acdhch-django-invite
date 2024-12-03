@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "apis-acdhch-django-invite"
-version = "0.1.1"
+version = "0.2.0"
 description = "Invite Links for APIS Instances"
 authors = ["Birger Schacht <birger.schacht@oeaw.ac.at>"]
 license = "MIT"
