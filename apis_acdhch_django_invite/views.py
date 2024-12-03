@@ -5,6 +5,7 @@ from django.shortcuts import get_object_or_404
 from django.views.generic.edit import CreateView
 
 from apis_acdhch_django_invite.models import InviteToken
+from apis_acdhch_django_invite.signals import consume_invite
 
 
 class Invite(CreateView):
@@ -19,5 +20,6 @@ class Invite(CreateView):
     def form_valid(self, form):
         ret = super().form_valid(form)
         self.invite.delete()
+        consume_invite.send(sender=self.object)
         messages.success(self.request, f"Created user {self.object}")
         return ret
